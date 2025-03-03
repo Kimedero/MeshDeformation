@@ -1,8 +1,0 @@
-res://Box/box.tscn
-res://Markers/marker.tscn
-res://Box/box.gd
-res://box.tscn
-res://MainScene.tscn
-res://MainScene.gd
-res://MeshDamage.gd
-res://MeshDeformation.gd
