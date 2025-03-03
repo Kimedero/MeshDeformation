@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://bw3iop7inwl4w"]
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_vex7n"]
+bottom_radius = 0.0
+height = 1.0
+radial_segments = 12
+rings = 0
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_t3tqj"]
+albedo_color = Color(0.376471, 1, 0, 1)
+
+[node name="Marker" type="Node3D"]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.5, 0)
+mesh = SubResource("CylinderMesh_vex7n")
+surface_material_override/0 = SubResource("StandardMaterial3D_t3tqj")
